@@ -1,4 +1,4 @@
 /* TEAM */
-Developer: Corentin Thomasset
-Site: https://github.com/CorentinTh
-Twitter: @cthmsst
+Developer: Anh Duc Le
+Site: https://code.pro.vn
+Twitter: @ducladev

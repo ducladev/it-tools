@@ -9,7 +9,7 @@ const errorCorrectionLevel = ref<QRCodeErrorCorrectionLevel>('medium');
 
 const errorCorrectionLevels = ['low', 'medium', 'quartile', 'high'];
 
-const text = ref('https://it-tools.tech');
+const text = ref('https://tools.code.pro.vn');
 const { qrcode } = useQRCode({
   text,
   color: {
@@ -59,9 +59,7 @@ const { download } = useDownloadFileFromBase64({ source: qrcode, filename: 'qr-c
       <n-gi>
         <div flex flex-col items-center gap-3>
           <n-image :src="qrcode" width="200" />
-          <c-button @click="download">
-            Download qr-code
-          </c-button>
+          <c-button @click="download"> Download qr-code </c-button>
         </div>
       </n-gi>
     </n-grid>

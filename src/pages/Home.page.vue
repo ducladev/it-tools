@@ -28,18 +28,20 @@ function onUpdateFavoriteTools() {
         <ColoredCard v-if="config.showBanner" :title="$t('home.follow.title')" :icon="IconHeart">
           {{ $t('home.follow.p1') }}
           <a
-            href="https://github.com/CorentinTh/it-tools"
+            href="https://github.com/codeprovn"
             rel="noopener"
             target="_blank"
             :aria-label="$t('home.follow.githubRepository')"
-          >GitHub</a>
+            >GitHub</a
+          >
           {{ $t('home.follow.p2') }}
           <a
-            href="https://x.com/ittoolsdottech"
+            href="https://www.facebook.com/codepro.official"
             rel="noopener"
             target="_blank"
-            :aria-label="$t('home.follow.twitterXAccount')"
-          >X</a>.
+            :aria-label="$t('home.follow.facebookAccount')"
+            >Facebook</a
+          >.
           {{ $t('home.follow.thankYou') }}
           <n-icon :component="IconHeart" />
         </ColoredCard>
@@ -118,7 +120,7 @@ function onUpdateFavoriteTools() {
   }
   100% {
     opacity: 0.4;
-    transform: scale(1.0);
+    transform: scale(1);
   }
 }
 </style>
